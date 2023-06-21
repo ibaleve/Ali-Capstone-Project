@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Little Lemon Restaurant</title>
+
+    <meta name="title" content="Little Lemon Restaurant" />
+    <meta
+      name="description"
+      content="Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the marketing for the restaurant and led the effort to expand the menu beyond classic Italian to incorporate additional cuisines from the Mediterranean region." />
+    <meta name="author" content="Little Lemon" />
+
+    <meta property="og:site_name" content="Little Lemon" />
+    <meta property="og:title" content="Little Lemon Restaurant" />
+    <meta property="og:url" content="https://little-lemon.com" />
+    <meta property="og:image" content="/img/Asset 16@4x.png" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the marketing for the restaurant and led the effort to expand the menu beyond classic Italian to incorporate additional cuisines from the Mediterranean region." />
+
+    <link rel="stylesheet" href="/fonts/font-awsome/font-awsome.min.css" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="restore">
+    <div class="page-loader" style="display: none"></div>
+    <header>
+      <div class="large_screen_header init">
+        <div class="large_header_container">
+          <div class="logo_container">
+            <img
+              src="/img/little_lemon_logo.png"
+              width="2000"
+              height="546"
+              alt="Little Lemon Logo" />
+          </div>
+          <nav>
+            <ul class="menu_large">
+              <li class="menu_item"><a href="#home">Home</a></li>
+              <li class="menu_item menu_item_has_children">
+                <a href="#menu">Menu</a>
+                <ul class="submenu">
+                  <li><a href="#menu">Submenu 1</a></li>
+                  <li><a href="#menu">Submenu 2</a></li>
+                  <li><a href="#menu">Submenu 3</a></li>
+                  <li><a href="#menu">Submenu 4</a></li>
+                  <li><a href="#menu">Submenu 5</a></li>
+                </ul>
+              </li>
+              <li class="menu_item menu_item_has_children">
+                <a href="#book">Book</a>
+                <ul class="submenu">
+                  <li><a href="#book">Submenu 1</a></li>
+                  <li><a href="#book">Submenu 2</a></li>
+                  <li><a href="#book">Submenu 3</a></li>
+                  <li><a href="#book">Submenu 4</a></li>
+                  <li><a href="#book">Submenu 5</a></li>
+                </ul>
+              </li>
+              <li class="menu_item"><a href="#about">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="small_screen_header init">
+        <div class="small_menu_bar">
+          <div class="logo_container">
+            <img
+              src="/img/little_lemon_logo.png"
+              width="2000"
+              height="546"
+              alt="Little Lemon Logo" />
+          </div>
+          <div class="menu_toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="small_menu_list init">
+        <a id="close_small_menu" href="javascript:;"></a>
+        <div class="small_menu_list_container">
+          <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#book">Book</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+
+        <div class="menu_additional">
+          <div class="additional_title">
+            <h3>Location</h3>
+          </div>
+          <div>
+            <p><a href="tel:123456789900">+12 345 678 9900</a></p>
+            <p>
+              <a href="mailto:info@littlelemon.com">info@littlelemon.com</a>
+            </p>
+            <p>5301 S Hyde Park Blvd, Chicago, IL 60615</p>
+          </div>
+          <div class="additional_title">
+            <h3>Opening Hours</h3>
+          </div>
+          <div>
+            <p>Tuesday-Thursday: 12am-9pm</p>
+            <p>Friday-Sunday: 12am-11pm</p>
+            <p>Monday: Closed</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="banner_section" id="home">
+        <div class="banner_text">
+          <h1>
+            <span class="blast">Q</span><span class="blast">U</span
+            ><span class="blast">A</span><span class="blast">L</span
+            ><span class="blast">I</span><span class="blast">T</span
+            ><span class="blast">Y</span><span class="blast">&nbsp;</span
+            ><span class="blast">F</span><span class="blast colored">O</span
+            ><span class="blast colored">O</span><span class="blast">D</span
+            ><span class="blast">S</span>
+          </h1>
+          <p class="banner-sub-hed">Healthy Food for healthy body</p>
+        </div>
+
+        <div class="all-img-banner">
+          <div class="pizza_holder">
+            <img
+              src="/img/plate.png"
+              width="779"
+              height="776"
+              alt="banner"
+              class="pizza-img" />
+          </div>
+          <img
+            src="/img/pizza-banner/pizza-1.png"
+            alt="banner"
+            class="pizza-it pizza-1" />
+          <img
+            src="/img/pizza-banner/pizza-2.png"
+            alt="banner"
+            class="pizza-it pizza-2" />
+          <img
+            src="/img/pizza-banner/pizza-3.png"
+            alt="banner"
+            class="pizza-it pizza-3" />
+          <img
+            src="/img/pizza-banner/pizza-4.png"
+            alt="banner"
+            class="pizza-it pizza-4" />
+          <img
+            src="/img/pizza-banner/pizza-5.png"
+            alt="banner"
+            class="pizza-it pizza-5" />
+          <img
+            src="/img/pizza-banner/pizza-6.png"
+            alt="banner"
+            class="pizza-it pizza-6" />
+        </div>
+      </section>
+      <section class="intro_section">
+        <div class="intro_container">
+          <div class="intro_top">
+            <p class="heading_subtitle_gold">Dinner at</p>
+            <h2>The Lemon Room</h2>
+            <p class="intro_text">
+              Welcome. This is Little Lemon. Lorem ipsum dolor sit enim ametys
+              consec atetur adipisicing elit eiusmo tempors incididunts labore
+              dolore magna aliqua enim mini veniam quis nostrud exercitation
+              ullamcos laboris nisiut aliquip consequat reprehenderit.
+            </p>
+            <p class="intro_signature">Ali Morgan</p>
+          </div>
+          <div class="upper_inner_header">
+            <div>The taste you’ll remember</div>
+          </div>
+          <div class="lower_inner_header">
+            <div>Adventurous dining for those with a curious palate</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu_section" id="menu">
+        <p class="heading_subtitle_gold">Taste the best</p>
+        <h2>DISCOVER OUR MENU</h2>
+        <div class="menu_swiper swiper">
+          <div class="menu_container swiper-wrapper">
+            <article class="swiper-slide">
+              <img
+                loading="lazy"
+                src="/img/pasta/fettucine.png"
+                width="600"
+                height="600"
+                alt="Fettucine" />
+              <h3>Fettucine</h3>
+              <p class="menu_description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="menu_price">$10.60</p>
+            </article>
+            <article class="swiper-slide">
+              <img
+                loading="lazy"
+                src="/img/pasta/bucatini.gif"
+                width="600"
+                height="600"
+                alt="Bucantini" />
+              <h3>Bucantini</h3>
+              <p class="menu_description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="menu_price">$10.60</p>
+            </article>
+
+            <article class="swiper-slide">
+              <img
+                loading="lazy"
+                src="/img/plate.png"
+                width="779"
+                height="776"
+                alt="Capricciosa" />
+              <h3>Capricciosa</h3>
+              <p class="menu_description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="menu_price">$5.45</p>
+            </article>
+            <article class="swiper-slide">
+              <img
+                loading="lazy"
+                src="/img/pasta/casunziei1.png"
+                width="554"
+                height="555"
+                alt="Casunziei" />
+              <h3>Casunziei</h3>
+              <p class="menu_description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="menu_price">$10.60</p>
+            </article>
+            <article class="swiper-slide">
+              <img
+                loading="lazy"
+                src="/img/pizza/diablo.png"
+                width="527"
+                height="528"
+                alt="Diablo" />
+              <h3>Diablo</h3>
+              <p class="menu_description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="menu_price">$1.85</p>
+            </article>
+            <article class="swiper-slide">
+              <img
+                loading="lazy"
+                src="/img/pizza/periperi.png"
+                width="549"
+                height="542"
+                alt="Pepperoni" />
+              <h3>Pepperoni</h3>
+              <p class="menu_description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="menu_price">$6.60</p>
+            </article>
+
+            <article class="swiper-slide">
+              <img
+                loading="lazy"
+                src="/img/pizza/saporita.png"
+                width="600"
+                height="600"
+                alt="Saporita" />
+              <h3>Saporita</h3>
+              <p class="menu_description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="menu_price">$1.70</p>
+            </article>
+
+            <article class="swiper-slide">
+              <img
+                loading="lazy"
+                src="/img/pasta/saporita.png"
+                width="600"
+                height="600"
+                alt="Farfalle" />
+              <h3>Farfalle</h3>
+              <p class="menu_description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="menu_price">$10.60</p>
+            </article>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </section>
+
+      <section class="booking_section" id="book">
+        <p class="heading_subtitle_gold">Online Booking</p>
+        <h2>Reservation</h2>
+        <p class="heading_more">
+          Curabitur ac nisl molestie, facilisis nibh ac, facilisis ligula.
+          Integer congue malesuada eros congue varius
+        </p>
+        <div class="booking_container">
+          <div class="booking_form">
+            <form
+              action="https://www.opentable.com/restaurant-search.aspx"
+              target="_blank">
+              <div>
+                <div>
+                  <select id="people_select" name="partysize">
+                    <option value="1">1 person</option>
+                    <option value="2" selected="selected">2 people</option>
+                    <option value="3">3 people</option>
+                    <option value="4">4 people</option>
+                    <option value="5">5 people</option>
+                    <option value="6">6 people</option>
+                    <option value="7">7 people</option>
+                    <option value="8">8 people</option>
+                  </select>
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    id="date"
+                    name="startDate"
+                    onclick="(this.type='date')"
+                    onblur="if(!this.value)this.type='text'"
+                    placeholder="Date" />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    id="time"
+                    name="ResTime"
+                    onclick="(this.type='time')"
+                    onblur="if(!this.value)this.type='text'"
+                    placeholder="Time" />
+                </div>
+              </div>
+              <button type="submit" value="BOOK">BOOK</button>
+              <input type="hidden" name="rid" class="rid" value="1" />
+              <input
+                type="hidden"
+                name="txtDateFormat"
+                class="txtDateFormat"
+                value="dd/mm/yyyy" />
+              <input type="hidden" name="restref" class="restref" value="1" />
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="about_section" id="about">
+        <p class="heading_subtitle_gold">Ready to serve</p>
+        <h2>Talented Chefs</h2>
+        <p class="heading_more">
+          Curabitur ac nisl molestie, facilisis nibh ac, facilisis ligula.
+          Integer congue malesuada eros congue varius
+        </p>
+        <div class="bio_swiper swiper">
+          <div class="bio_container swiper-wrapper">
+            <article class="swiper-slide">
+              <figure class="chefs_bio">
+                <img
+                  loading="lazy"
+                  src="/img/chefs/h6-team-1.jpg"
+                  width="900"
+                  height="969"
+                  alt="Mario Luigi" />
+                <figcaption>
+                  <h3>Mario Luigi</h3>
+                  <p>Head Chef</p>
+                </figcaption>
+                <div class="member-overlay">
+                  <div class="member-hover">
+                    <div class="pos-vertical-center">
+                      <div class="member-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </div>
+
+                      <div class="member-desc">
+                        <p>
+                          Passion for cooking is in his genes. He grew up
+                          appreciating outstanding food and service at an early
+                          age.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </article>
+
+            <article class="swiper-slide">
+              <figure class="chefs_bio">
+                <img
+                  loading="lazy"
+                  src="/img/chefs/h6-team-2.jpg"
+                  width="900"
+                  height="969"
+                  alt="Iris Leach" />
+                <figcaption>
+                  <h3>Iris Leach</h3>
+                  <p>Sous Chef</p>
+                </figcaption>
+
+                <div class="member-overlay">
+                  <div class="member-hover">
+                    <div class="pos-vertical-center">
+                      <div class="member-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </div>
+
+                      <div class="member-desc">
+                        <p>
+                          Passion for cooking is in her genes. She grew up
+                          appreciating outstanding food and service at an early
+                          age.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </article>
+
+            <article class="swiper-slide">
+              <figure class="chefs_bio">
+                <img
+                  loading="lazy"
+                  src="/img/chefs/h6-team-3.jpg"
+                  width="900"
+                  height="969"
+                  alt="Travis Pena" />
+                <figcaption>
+                  <h3>Travis Pena</h3>
+                  <p>Sous Chef</p>
+                </figcaption>
+
+                <div class="member-overlay">
+                  <div class="member-hover">
+                    <div class="pos-vertical-center">
+                      <div class="member-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </div>
+
+                      <div class="member-desc">
+                        <p>
+                          Passion for cooking is in his genes. He grew up
+                          appreciating outstanding food and service at an early
+                          age.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </article>
+
+            <article class="swiper-slide">
+              <figure class="chefs_bio">
+                <img
+                  loading="lazy"
+                  src="/img/chefs/h6-team-4.jpg"
+                  width="900"
+                  height="969"
+                  alt="Kati Rivera" />
+                <figcaption>
+                  <h3>Kati Rivera</h3>
+                  <p>Head Chef</p>
+                </figcaption>
+
+                <div class="member-overlay">
+                  <div class="member-hover">
+                    <div class="pos-vertical-center">
+                      <div class="member-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                      </div>
+
+                      <div class="member-desc">
+                        <p>
+                          Passion for cooking is in her genes. She grew up
+                          appreciating outstanding food and service at an early
+                          age.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </article>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </section>
+      <section class="gallery_section">
+        <p class="heading_subtitle_gold">Restaurant</p>
+        <h2>Gallery</h2>
+        <p class="heading_more">
+          Curabitur ac nisl molestie, facilisis nibh ac, facilisis ligula.
+          Integer congue malesuada eros congue varius
+        </p>
+        <div class="gallery_swiper swiper">
+          <div class="gallery_container swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="gallery_img">
+                <img
+                  loading="lazy"
+                  src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image3-750x750.jpg"
+                  large-src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image3.jpg"
+                  width="750"
+                  height="750"
+                  alt="gallery-1" />
+              </div>
+              <div class="swiper-lazy-preloader"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery_img">
+                <img
+                  loading="lazy"
+                  src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image5-750x750.jpg"
+                  large-src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image5.jpg"
+                  width="750"
+                  height="750"
+                  alt="gallery-2" />
+              </div>
+              <div class="swiper-lazy-preloader"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery_img">
+                <img
+                  loading="lazy"
+                  src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image5-1-750x750.jpg"
+                  large-src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image5-1.jpg"
+                  width="750"
+                  height="750"
+                  alt="gallery-3" />
+              </div>
+              <div class="swiper-lazy-preloader"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery_img">
+                <img
+                  loading="lazy"
+                  src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/04/image14-750x750.jpg"
+                  large-src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/04/image14.jpg"
+                  width="750"
+                  height="750"
+                  alt="gallery-4" />
+              </div>
+              <div class="swiper-lazy-preloader"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery_img">
+                <img
+                  loading="lazy"
+                  src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image24-750x750.jpg"
+                  large-src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image24.jpg"
+                  width="750"
+                  height="750"
+                  alt="gallery-5" />
+              </div>
+              <div class="swiper-lazy-preloader"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery_img">
+                <img
+                  loading="lazy"
+                  src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image7-750x750.jpg"
+                  large-src="https://imaginem.io/cinnamon/wp-content/uploads/sites/13/2017/03/image7.jpg"
+                  width="750"
+                  height="750"
+                  alt="gallery-6" />
+              </div>
+              <div class="swiper-lazy-preloader"></div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <section class="testimony_section">
+        <p class="heading_subtitle_gold">Happy Customers</p>
+        <h2>Testimony</h2>
+
+        <div class="testimony_swiper swiper">
+          <div class="testimony_container swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimony">
+                <div class="rating">
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                </div>
+                <div class="comment">
+                  <q
+                    >Wonderful, beautiful, super tasty, and all natural
+                    ingredient. Highly recommend Lemon Restaurant and will dine
+                    again!!</q
+                  >
+                </div>
+                <div class="customer_name">Jasmin S.</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimony">
+                <div class="rating">
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                </div>
+                <div class="comment">
+                  <q
+                    >Everyone went crazy over them. They also couldn't believe
+                    how beautiful they were. Totally impressed!</q
+                  >
+                </div>
+                <div class="customer_name">Peter J.</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimony">
+                <div class="rating">
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                </div>
+                <div class="comment">
+                  <q
+                    >Best pasta ever!! Got them for a coworkers party and they
+                    were a hit! Definitely going back for any needs for
+                    sweets!</q
+                  >
+                </div>
+                <div class="customer_name">Karl M.</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimony">
+                <div class="rating">
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                  <span><i class="fa fa-star"></i></span>
+                </div>
+                <div class="comment">
+                  <q
+                    >Wonderful, beautiful, super tasty, and all natural sweets.
+                    Highly recommend Lemon Restaurant and will dine again!!</q
+                  >
+                </div>
+                <div class="customer_name">Karen T.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe_section">
+        <p class="heading_subtitle_gold">Subscribe</p>
+        <h2>Newsletter</h2>
+        <p class="heading_more">
+          Curabitur ac nisl molestie, facilisis nibh ac, facilisis ligula.
+          Integer congue malesuada eros congue varius
+        </p>
+        <form>
+          <input
+            type="email"
+            id="subscribe"
+            name="subscribe"
+            placeholder="Enter Your Email" />
+          <button type="submit" value="submit">SUBMIT</button>
+        </form>
+      </section>
+
+      <section class="map_section">
+        <div class="address_container">
+          <div>
+            <p><a href="tel:123456789900">+12 345 678 9900</a></p>
+            <p>
+              <a href="mailto:info@littlelemon.com">info@littlelemon.com</a>
+            </p>
+            <p>5301 S Hyde Park Blvd, Chicago, IL 60615</p>
+          </div>
+          <div>
+            <p>Tuesday-Thursday: 12am-9pm</p>
+            <p>Friday-Sunday: 12am-11pm</p>
+            <p>Monday: Closed</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="footer_logo">
+        <img
+          src="img/little_lemon_logo_footer.png"
+          width="250"
+          height="68"
+          alt="Foorter Logo" />
+      </div>
+      <div id="footer_copyright">
+        <p>&copy; 2023 Little Lemon</p>
+      </div>
+    </footer>
+    <div id="overlay_background"></div>
+
+    <script src="/scripts/swiper-bundle.min.js"></script>
+    <script src="/scripts/apps.js"></script>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
