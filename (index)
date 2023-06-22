@@ -10,17 +10,16 @@
     <meta name="title" content="Little Lemon Restaurant" />
     <meta
       name="description"
-      content="Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the marketing for the restaurant and led the effort to expand the menu beyond classic Italian to incorporate additional cuisines from the Mediterranean region." />
+      content="Little Lemon is owned by Italian brothers, who shared a dream of owning a restaurant in the United States. To craft the menu, They rely on family recipes and experience as chefs in Italy. They also do all the marketing for the restaurant and led the effort to expand the menu beyond classic Italian " />
     <meta name="author" content="Little Lemon" />
 
     <meta property="og:site_name" content="Little Lemon" />
     <meta property="og:title" content="Little Lemon Restaurant" />
-    <meta property="og:url" content="https://little-lemon.com" />
     <meta property="og:image" content="/img/Asset 16@4x.png" />
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
-      content="Little Lemon is owned by two Italian brothers, Mario and Adrian, who moved to the United States to pursue their shared dream of owning a restaurant. To craft the menu, Mario relies on family recipes and his experience as a chef in Italy. Adrian does all the marketing for the restaurant and led the effort to expand the menu beyond classic Italian to incorporate additional cuisines from the Mediterranean region." />
+      content="Little Lemon is owned by Italian brothers, who shared a dream of owning a restaurant in the United States. To craft the menu, They rely on family recipes and experience as chefs in Italy. They also do all the marketing for the restaurant and led the effort to expand the menu beyond classic Italian" />
 
     <link rel="stylesheet" href="/fonts/font-awsome/font-awsome.min.css" />
     <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
@@ -44,21 +43,13 @@
               <li class="menu_item menu_item_has_children">
                 <a href="#menu">Menu</a>
                 <ul class="submenu">
-                  <li><a href="#menu">Submenu 1</a></li>
-                  <li><a href="#menu">Submenu 2</a></li>
-                  <li><a href="#menu">Submenu 3</a></li>
-                  <li><a href="#menu">Submenu 4</a></li>
-                  <li><a href="#menu">Submenu 5</a></li>
+                  <li><a href="#menu">Discover Our Menu</a></li>
                 </ul>
               </li>
               <li class="menu_item menu_item_has_children">
-                <a href="#book">Book</a>
+                <a href="#book">Reservation</a>
                 <ul class="submenu">
-                  <li><a href="#book">Submenu 1</a></li>
-                  <li><a href="#book">Submenu 2</a></li>
-                  <li><a href="#book">Submenu 3</a></li>
-                  <li><a href="#book">Submenu 4</a></li>
-                  <li><a href="#book">Submenu 5</a></li>
+                  <li><a href="#book">Book</a></li>
                 </ul>
               </li>
               <li class="menu_item"><a href="#about">About</a></li>
@@ -111,9 +102,8 @@
             <h3>Opening Hours</h3>
           </div>
           <div>
-            <p>Tuesday-Thursday: 12am-9pm</p>
+            <p>Monday-Thursday: 12am-9pm</p>
             <p>Friday-Sunday: 12am-11pm</p>
-            <p>Monday: Closed</p>
           </div>
         </div>
       </div>
@@ -123,15 +113,15 @@
       <section class="banner_section" id="home">
         <div class="banner_text">
           <h1>
-            <span class="blast">Q</span><span class="blast">U</span
-            ><span class="blast">A</span><span class="blast">L</span
-            ><span class="blast">I</span><span class="blast">T</span
-            ><span class="blast">Y</span><span class="blast">&nbsp;</span
-            ><span class="blast">F</span><span class="blast colored">O</span
-            ><span class="blast colored">O</span><span class="blast">D</span
-            ><span class="blast">S</span>
+            <span class="blast">C</span><span class="blast">H</span
+            ><span class="blast">E</span><span class="blast">R</span
+            ><span class="blast">I</span><span class="blast">S</span
+            ><span class="blast">H</span><span class="blast">&nbsp;</span
+            ><span class="blast">I</span><span class="blast colored-green">T</span
+            ><span class="blast colored-red">A</span><span class="blast">L</span
+            ><span class="blast">Y</span>
           </h1>
-          <p class="banner-sub-hed">Healthy Food for healthy body</p>
+          <p class="banner-sub-hed">Italian Food for a healthy body</p>
         </div>
 
         <div class="all-img-banner">
@@ -171,28 +161,30 @@
       </section>
       <section class="intro_section">
         <div class="intro_container">
-          <div class="intro_top">
             <p class="heading_subtitle_gold">Dinner at</p>
-            <h2>The Lemon Room</h2>
+            <h2>Little Lemon</h2>
             <p class="intro_text">
-              Welcome. This is Little Lemon. Lorem ipsum dolor sit enim ametys
-              consec atetur adipisicing elit eiusmo tempors incididunts labore
-              dolore magna aliqua enim mini veniam quis nostrud exercitation
-              ullamcos laboris nisiut aliquip consequat reprehenderit.
+              Welcome to Little Lemon, a truly Italian restaurant. Experience the
+exquisite flavors and warm ambiance. Indulge in our carefully crafted dishes,
+made with the utmost care and attention to detail. Savor every bite
+and enjoy the culinary journey that awaits you. Our dedicated team
+strives to provide exceptional service and ensure your dining
+experience is memorable. Come and join us at Little Lemon, where
+passion meets culinary artistry.
             </p>
-            <p class="intro_signature">Ali Morgan</p>
+            <p class="intro_signature">Ali's Capstone</p><br>
           </div>
           <div class="upper_inner_header">
             <div>The taste you’ll remember</div>
           </div>
           <div class="lower_inner_header">
-            <div>Adventurous dining for those with a curious palate</div>
+            <div>Adventurous dining for those with a taste for italian</div>
           </div>
         </div>
       </section>
 
       <section class="menu_section" id="menu">
-        <p class="heading_subtitle_gold">Taste the best</p>
+        <p class="heading_subtitle_gold">Start Your Journey</p>
         <h2>DISCOVER OUR MENU</h2>
         <div class="menu_swiper swiper">
           <div class="menu_container swiper-wrapper">
@@ -205,7 +197,7 @@
                 alt="Fettucine" />
               <h3>Fettucine</h3>
               <p class="menu_description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Authentic Italian fettucine, a culinary masterpiece.
               </p>
               <p class="menu_price">$10.60</p>
             </article>
@@ -218,7 +210,7 @@
                 alt="Bucantini" />
               <h3>Bucantini</h3>
               <p class="menu_description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Savory Bucatini: A great taste of Italian excellence.
               </p>
               <p class="menu_price">$10.60</p>
             </article>
@@ -232,7 +224,7 @@
                 alt="Capricciosa" />
               <h3>Capricciosa</h3>
               <p class="menu_description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Capricciosa: Delightful Italian indulgence, bursting with flavors.
               </p>
               <p class="menu_price">$5.45</p>
             </article>
@@ -245,7 +237,7 @@
                 alt="Casunziei" />
               <h3>Casunziei</h3>
               <p class="menu_description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Casunziei: Traditional Italian delight, rich in authentic flavors.
               </p>
               <p class="menu_price">$10.60</p>
             </article>
@@ -258,7 +250,7 @@
                 alt="Diablo" />
               <h3>Diablo</h3>
               <p class="menu_description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Diablo Square Pizza: Fiery and flavorful Italian delight.
               </p>
               <p class="menu_price">$1.85</p>
             </article>
@@ -271,7 +263,7 @@
                 alt="Pepperoni" />
               <h3>Pepperoni</h3>
               <p class="menu_description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Pepperoni Pie: Irresistible Italian classic, loaded with flavor.
               </p>
               <p class="menu_price">$6.60</p>
             </article>
@@ -285,7 +277,7 @@
                 alt="Saporita" />
               <h3>Saporita</h3>
               <p class="menu_description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Saporita: Irresistibly savory, an Italian culinary delight.
               </p>
               <p class="menu_price">$1.70</p>
             </article>
@@ -299,7 +291,7 @@
                 alt="Farfalle" />
               <h3>Farfalle</h3>
               <p class="menu_description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Farfalle: Elegantly Italian, a true culinary masterpiece you'll love.
               </p>
               <p class="menu_price">$10.60</p>
             </article>
@@ -311,11 +303,10 @@
       </section>
 
       <section class="booking_section" id="book">
-        <p class="heading_subtitle_gold">Online Booking</p>
+        <p class="heading_subtitle_gold">Online Table</p>
         <h2>Reservation</h2>
         <p class="heading_more">
-          Curabitur ac nisl molestie, facilisis nibh ac, facilisis ligula.
-          Integer congue malesuada eros congue varius
+          Reserve online at Little Lemon for a seamless experience. Simplify the process with user-friendly features. Secure your hassle-free reservation and enjoy dining with ease.
         </p>
         <div class="booking_container">
           <div class="booking_form">
@@ -354,7 +345,7 @@
                     placeholder="Time" />
                 </div>
               </div>
-              <button type="submit" value="BOOK">BOOK</button>
+              <button type="submit" value="BOOK">RESERVE</button>
               <input type="hidden" name="rid" class="rid" value="1" />
               <input
                 type="hidden"
@@ -367,11 +358,10 @@
         </div>
       </section>
       <section class="about_section" id="about">
-        <p class="heading_subtitle_gold">Ready to serve</p>
-        <h2>Talented Chefs</h2>
+        <p class="heading_subtitle_gold">Meet the crew</p>
+        <h2>Italian Master chefs</h2>
         <p class="heading_more">
-          Curabitur ac nisl molestie, facilisis nibh ac, facilisis ligula.
-          Integer congue malesuada eros congue varius
+          Experience culinary excellence at Little Lemon with our skilled chefs. Passionate, creative, and dedicated, they craft unforgettable dishes.
         </p>
         <div class="bio_swiper swiper">
           <div class="bio_container swiper-wrapper">
@@ -384,7 +374,7 @@
                   height="969"
                   alt="Mario Luigi" />
                 <figcaption>
-                  <h3>Mario Luigi</h3>
+                  <h3>Angelo Esposito</h3>
                   <p>Head Chef</p>
                 </figcaption>
                 <div class="member-overlay">
@@ -418,7 +408,7 @@
                   height="969"
                   alt="Iris Leach" />
                 <figcaption>
-                  <h3>Iris Leach</h3>
+                  <h3>Andrea Russo</h3>
                   <p>Sous Chef</p>
                 </figcaption>
 
@@ -453,7 +443,7 @@
                   height="969"
                   alt="Travis Pena" />
                 <figcaption>
-                  <h3>Travis Pena</h3>
+                  <h3>Antonio Rossi</h3>
                   <p>Sous Chef</p>
                 </figcaption>
 
@@ -488,7 +478,7 @@
                   height="969"
                   alt="Kati Rivera" />
                 <figcaption>
-                  <h3>Kati Rivera</h3>
+                  <h3>Francesca Ferrari</h3>
                   <p>Head Chef</p>
                 </figcaption>
 
@@ -521,11 +511,10 @@
         <div class="swiper-pagination"></div>
       </section>
       <section class="gallery_section">
-        <p class="heading_subtitle_gold">Restaurant</p>
+        <p class="heading_subtitle_gold">Little Lemon</p>
         <h2>Gallery</h2>
         <p class="heading_more">
-          Curabitur ac nisl molestie, facilisis nibh ac, facilisis ligula.
-          Integer congue malesuada eros congue varius
+           Immerse yourself in captivating displays, showcasing creativity and inspiration.
         </p>
         <div class="gallery_swiper swiper">
           <div class="gallery_container swiper-wrapper">
@@ -607,8 +596,8 @@
         </div>
       </section>
       <section class="testimony_section">
-        <p class="heading_subtitle_gold">Happy Customers</p>
-        <h2>Testimony</h2>
+        <p class="heading_subtitle_gold">Little Lemon</p>
+        <h2>Customer Testimony</h2>
 
         <div class="testimony_swiper swiper">
           <div class="testimony_container swiper-wrapper">
@@ -691,11 +680,10 @@
       </section>
 
       <section class="subscribe_section">
-        <p class="heading_subtitle_gold">Subscribe</p>
+        <p class="heading_subtitle_gold">Subscribe to our</p>
         <h2>Newsletter</h2>
         <p class="heading_more">
-          Curabitur ac nisl molestie, facilisis nibh ac, facilisis ligula.
-          Integer congue malesuada eros congue varius
+          Stay connected with Little Lemon's latest updates and exclusive offers. Be the first to receive exciting news, mouthwatering recipes, and special promotions.
         </p>
         <form>
           <input

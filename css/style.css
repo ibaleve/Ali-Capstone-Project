@@ -758,8 +758,14 @@ section.animate{
     opacity: 0;
     transition-delay: 1500ms;
 }
-.banner_text h1 span.colored{
-    color:#E4B34C;
+.banner_text h1 span.colored-green{
+    color:#4ce46f;
+    
+}
+
+
+.banner_text h1 span.colored-red{
+    color:#fe0505;
     
 }
 
